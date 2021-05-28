@@ -1,4 +1,5 @@
-@import url("assets/navigation.css");
+@import url('assets/vendor/fontawesome.min.css');
+@import url('assets/vendor/all.min.css');
 
 :root {
 	color-scheme: light dark; /* both supported */
@@ -6,24 +7,21 @@
 
 @media (prefers-color-scheme: light) {
 	body {
-		background: #c4c4c4;
-		color: #1a1a1a;
+		background: #c4c4c4 !important;
+		color: #1a1a1a !important;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background: #1a1a1a;
-		color: #c4c4c4;
+		background: #1a1a1a !important;
+		color: #c4c4c4 !important;
 	}
 	img {
-    	filter: brightness(.8) contrast(1.2);
+    	filter: brightness(.8) contrast(1.2) !important;
   	}
 }
 
-html[theme='dark-mode'] {
-    filter: invert(1) hue-rotate(180deg);
-}
 
 html, body {
 	height: 100%;
@@ -32,9 +30,6 @@ html, body {
 html {
     font-family: sans-serif;
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	transition: color 300ms, background-color 300ms;
 	scroll-behavior: smooth;
 }
 
@@ -47,9 +42,7 @@ body {
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
     text-align: left;
-    background-color: #fff;
 }
 
 a {
