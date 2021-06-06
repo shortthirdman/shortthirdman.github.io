@@ -1,11 +1,11 @@
-@import url('assets/vendor/fontawesome.min.css');
-@import url('assets/vendor/all.min.css');
+@import url('../vendor/css/fontawesome.min.css');
+@import url('../vendor/css/all.min.css');
 
-:root {
+/* :root {
 	color-scheme: light dark; /* both supported */
-}
+} */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
 	body {
 		background: #c4c4c4 !important;
 		color: #1a1a1a !important;
@@ -20,7 +20,7 @@
 	img {
     	filter: brightness(.8) contrast(1.2) !important;
   	}
-}
+} */
 
 
 html, body {

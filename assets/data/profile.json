@@ -80,8 +80,7 @@
 			"month": 3
 		},
 		"summary": "Full-stack Senior Developer (Backend & Frontend)",
-		"highlights": [
-		]
+		"highlights": []
 	}, {
 		"company": "Advanced Technology Consulting Services Inc Ltd",
 		"position": "Software Engineer",
@@ -291,127 +290,92 @@
 	"awards": [],
 	"publications": [],
 	"certifications": [{
-		"name": "Google Analytics for Beginners",
-		"courseUrl": "https://analytics.google.com/analytics/academy/course/6",
-		"type": "Certificate",
-		"issuer": "Google",
-		"issuedOn": {
-			"day": 5,
-			"month": 6,
-			"year": 2021
+			"name": "Google Analytics for Beginners",
+			"courseUrl": "https://analytics.google.com/analytics/academy/course/6",
+			"type": "Certificate",
+			"issuer": "Google",
+			"issuedOn": "2021-06-05",
+			"expiresOn": "2024-06-05",
+			"credentialUrl": "https://analytics.google.com/analytics/academy/certificate/4ACEZFg5SeOGlVTh1SphJw",
+			"credentialId": "4ACEZFg5SeOGlVTh1SphJw"
 		},
-		"expiresOn": "2024-06-05",
-		"credentialUrl": "https://analytics.google.com/analytics/academy/certificate/4ACEZFg5SeOGlVTh1SphJw",
-		"credentialId": "4ACEZFg5SeOGlVTh1SphJw",
-	},
-	{
-		"name": "Advanced Google Analytics",
-		"courseUrl": "https://analytics.google.com/analytics/academy/course/7",
-		"type": "Certificate",
-		"issuer": "Google",
-		"issuedOn": {
-			"day": 5,
-			"month": 6,
-			"year": 2021
+		{
+			"name": "Advanced Google Analytics",
+			"courseUrl": "https://analytics.google.com/analytics/academy/course/7",
+			"type": "Certificate",
+			"issuer": "Google",
+			"issuedOn": "2021-06-25",
+			"expiresOn": "2024-06-25",
+			"credentialUrl": "https://analytics.google.com/analytics/academy/certificate/",
+			"credentialId": ""
 		},
-		"expiresOn": "2024-06-05",
-		"credentialUrl": "https://analytics.google.com/analytics/academy/certificate/",
-		"credentialId": "",
-	},
-	{
-		"name": "Angular 10+ The Complete Guide",
-		"courseUrl": "",
-		"type": "Certificate",
-		"issuer": "Udemy",
-		"issuedOn": {
-			"day": 5,
-			"month": 4,
-			"year": 2021
+		{
+			"name": "Angular 10+ The Complete Guide",
+			"courseUrl": "",
+			"type": "Certificate",
+			"issuer": "Udemy",
+			"issuedOn": "2021-04-15",
+			"expiresOn": null,
+			"credentialUrl": "",
+			"credentialId": ""
 		},
-		"expiresOn": null,
-		"credentialUrl": "",
-		"credentialId": "",
-	},
-	{
-		"name": "The Spring Web Framework",
-		"courseUrl": "",
-		"type": "Certificate",
-		"issuer": "Udemy",
-		"issuedOn": {
-			"day": 5,
-			"month": 4,
-			"year": 2021
+		{
+			"name": "The Spring Web Framework",
+			"courseUrl": "",
+			"type": "Certificate",
+			"issuer": "Udemy",
+			"issuedOn": "2021-04-05",
+			"expiresOn": null,
+			"credentialUrl": "",
+			"credentialId": ""
 		},
-		"expiresOn": null,
-		"credentialUrl": "",
-		"credentialId": "",
-	},
-	{
-		"name": "Rest API (Intermediate)",
-		"courseUrl": "",
-		"type": "Certificate",
-		"issuer": "HackerRank",
-		"issuedOn": {
-			"day": 21,
-			"month": 12,
-			"year": 2020
-		},
-		"expiresOn": null,
-		"credentialUrl": "https://www.hackerrank.com/certificates/deb2e6aab889",
-		"credentialId": "DEB2E6AAB889",
-	}, {
-		"name": "Problem Solving (Basic)",
-		"courseUrl": "",
-		"type": "Certificate",
-		"issuer": "HackerRank",
-		"issuedOn": {
-			"day": 15,
-			"month": 12,
-			"year": 2020
-		},
-		"expiresOn": null,
-		"credentialUrl": "https://www.hackerrank.com/certificates/424a967b0be9",
-		"credentialId": "424A967B0BE9",
-	}, {
-		"name": "Migrating from REST to GraphQL",
-		"courseUrl": "",
-		"type": "Certificate",
-		"issuer": "LinkedIn Learning",
-		"issuedOn": {
-			"day": 22,
-			"month": 9,
-			"year": 2020
-		},
-		"expiresOn": null,
-		"credentialUrl": "http://www.linkedin.com/learning/migrating-from-rest-to-graphql",
-		"credentialId": null,
-	}, {
-		"name": "Advanced Node.js",
-		"courseUrl": "",
-		"type": "Certificate",
-		"issuer": "LinkedIn Learning",
-		"issuedOn": {
-			"day": 11,
-			"month": 8,
-			"year": 2020
-		},
-		"expiresOn": null,
-		"credentialUrl": "http://www.linkedin.com/learning/advanced-node-js",
-		"credentialId": null,
-	}, {
-		"name": "Succeeding in DevOps",
-		"courseUrl": "",
-		"type": "Certificate",
-		"issuer": "LinkedIn Learning",
-		"issuedOn": {
-			"day": 5,
-			"month": 8,
-			"year": 2020
-		},
-		"expiresOn": null,
-		"credentialUrl": "http://www.linkedin.com/learning/succeeding-in-devops",
-		"credentialId": null,
-	}],
+		{
+			"name": "Rest API (Intermediate)",
+			"courseUrl": "",
+			"type": "Certificate",
+			"issuer": "HackerRank",
+			"issuedOn": "2020-12-21",
+			"expiresOn": null,
+			"credentialUrl": "https://www.hackerrank.com/certificates/deb2e6aab889",
+			"credentialId": "DEB2E6AAB889"
+		}, {
+			"name": "Problem Solving (Basic)",
+			"courseUrl": "",
+			"type": "Certificate",
+			"issuer": "HackerRank",
+			"issuedOn": "2020-12-15",
+			"expiresOn": null,
+			"credentialUrl": "https://www.hackerrank.com/certificates/424a967b0be9",
+			"credentialId": "424A967B0BE9"
+		}, {
+			"name": "Migrating from REST to GraphQL",
+			"courseUrl": "",
+			"type": "Certificate",
+			"issuer": "LinkedIn Learning",
+			"issuedOn": "2020-09-22",
+			"expiresOn": null,
+			"credentialUrl": "http://www.linkedin.com/learning/migrating-from-rest-to-graphql",
+			"credentialId": null
+		}, {
+			"name": "Advanced Node.js",
+			"courseUrl": "",
+			"type": "Certificate",
+			"issuer": "LinkedIn Learning",
+			"issuedOn": "2020-08-11",
+			"expiresOn": null,
+			"credentialUrl": "http://www.linkedin.com/learning/advanced-node-js",
+			"credentialId": null
+		}, {
+			"name": "Succeeding in DevOps",
+			"courseUrl": "",
+			"type": "Certificate",
+			"issuer": "LinkedIn Learning",
+			"issuedOn": "2020-08-05",
+			"expiresOn": null,
+			"credentialUrl": "http://www.linkedin.com/learning/succeeding-in-devops",
+			"credentialId": null
+		}
+	],
 	"skills": [{
 		"name": "Java",
 		"level": "Advanced",
