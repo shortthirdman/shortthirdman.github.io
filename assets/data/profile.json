@@ -439,7 +439,8 @@
 	}],
 	"projects": [{
 		"title": "e-Healthcare",
-		"organisation": "C-DAC India Ltd, Kolkata",
+		"employer": "C-DAC India Ltd, Kolkata",
+		"organisation": "C-DAC India Ltd",
 		"summary": "Web-based TelemedicineApplication using Online Handwriting Prescription System with Web Conferencing",
 		"timeSpan": {
 			"start": "01-2016",
@@ -448,7 +449,8 @@
 		"technologies": ["JavaServer Pages", "Java DataBase Connectivity", "MySQL", "Node.js", "WebRTC"]
 	}, {
 		"title": "Engineering Services Systems HomeOffice (ESS-HO)",
-		"organisation": "ATCS Inc India",
+		"employer": "ATCS Inc India",
+		"organisation": "Mercedes-Benz USA LLC",
 		"summary": "Agent Web Application for Mercedes-Benz USA LLC",
 		"timeSpan": {
 			"start": "08-2016",
@@ -457,7 +459,8 @@
 		"technologies": ["Angular 2/5", "Bootstrap 4", "TypeScript", "PrimeNg", "JavaServer Faces", "PrimeFaces", "EJB 3.0", "RESTful API Web Services", "Jasper Reports", "SAP SyBase Mainframe"]
 	}, {
 		"title": "Vehicle Experience Program Tool (VEP)",
-		"organisation": "ATCS Inc India",
+		"employer": "ATCS Inc India",
+		"organisation": "Mercedes-Benz Canada",
 		"summary": "Dealer/Customer Web Application for Mercedes-Benz Canada for monitoring and customizing the vehicle before purchase",
 		"timeSpan": {
 			"start": "01-2017",
@@ -466,7 +469,8 @@
 		"technologies": ["Angular 2", "Bootstrap 4", "TypeScript", "PrimeNg", "Java Persistence API", "RESTful API Web Services", "Jasper Reports", "IBM DB2"]
 	}, {
 		"title": "NetStar 5",
-		"organisation": "ATCS Inc India",
+		"employer": "ATCS Inc India",
+		"organisation": "Mercedes-Benz USA LLC",
 		"summary": "Agent/Dealer Web Application for Mercedes-Benz USA LLC for monitoring and analyzing sales and services for NAFTA region of Daimler AG",
 		"timeSpan": {
 			"start": "06-2017",
@@ -475,7 +479,8 @@
 		"technologies": ["Ember.js 2", "Bootstrap 4", "FontAwesome 4", "C3 with D3.js", "Spring Web MVC", "SAP SyBase Mainframe", "IBM DB2"]
 	}, {
 		"title": "ESS-HO Takata Campaigns",
-		"organisation": "ATCS Inc India",
+		"employer": "ATCS Inc India",
+		"organisation": "Mercedes-Benz USA LLC",
 		"summary": "Agent Web Application for Mercedes-Benz USA LLC for monitoring the Takata Campaigns in USA",
 		"timeSpan": {
 			"start": "06-2017",
@@ -484,7 +489,8 @@
 		"technologies": ["Angular 5", "Bootstrap 4", "TypeScript", "PrimeNG", "C3 with D3.js", "J2EE", "EJB 3.0", "REST API Web Services", "SAP Sybase", "IBM Mainfraime"]
 	}, {
 		"title": "ESS-HO RCAAID",
-		"organisation": "ATCS Inc India",
+		"employer": "ATCS Inc India",
+		"organisation": "Mercedes-Benz USA LLC",
 		"summary": "Agent Web Application for Mercedes-Benz USA LLC for monitoring Recall Campaigns in USA",
 		"timeSpan": {
 			"start": "05-2018",
@@ -493,13 +499,24 @@
 		"technologies": ["Angular 5", "Bootstrap 4", "TypeScript", "PrimeNG", "J2EE", "Spring Web", "Spring Data", "Spring JDBC", "REST API Web Services", "Jasper Reports", "IBM DB2"]
 	}, {
 		"title": "ESS-HO RCAAID",
-		"organisation": "ATCS Inc India",
+		"employer": "ATCS Inc India",
+		"organisation": "Mercedes-Benz Canada",
 		"summary": "Agent Web Application for Mercedes-Benz Canada for monitoring Recall Campaigns in Canada",
 		"timeSpan": {
 			"start": "08-2019",
 			"end": "02-2020"
 		},
 		"technologies": ["Angular 5", "Bootstrap 4", "TypeScript", "PrimeNG", "J2EE", "Spring Web", "Spring Data", "Spring JDBC", "REST API Web Services", "Jasper Reports", "IBM DB2"]
+	}, {
+		"title": "Global CitiFT Contingency Platform",
+		"employer": "Virtusa Corp",
+		"organisation": "Citi Group Inc",
+		"summary": "Application platform for Citi Group for bulk funds transfer payments",
+		"timeSpan": {
+			"start": "04-2021",
+			"end": null
+		},
+		"technologies": ["Angular 11", "Bootstrap 4", "TypeScript", "PrimeNG", "Spring Boot 2", "Spring Web", "Spring Data JPA", "REST API Web Services", "Oracle 10g", "SiteMinder SSO"]
 	}],
 	"languages": [{
 		"language": "English",
