@@ -28,11 +28,20 @@
 			"contractToHire": false
 		},
 		"location": {
-			"address": "4, Charu Chandra Place East, Charu Chandra Ave, Tollygunge",
-			"postalCode": "700033",
-			"city": "Kolkata",
-			"countryCode": "IN",
-			"region": "West Bengal"
+			"permanent": {
+				"address": "4, Charu Chandra Place East, Charu Chandra Ave, Tollygunge",
+				"postalCode": "700033",
+				"city": "Kolkata",
+				"countryCode": "IN",
+				"region": "West Bengal"
+			},
+			"current": {
+				"address": "4, Charu Chandra Place East, Charu Chandra Ave, Tollygunge",
+				"postalCode": "700033",
+				"city": "Kolkata",
+				"countryCode": "IN",
+				"region": "West Bengal"
+			}
 		},
 		"profiles": [{
 			"network": "GitHub",
@@ -44,7 +53,7 @@
 			"username": "shortthirdman"
 		}, {
 			"network": "Twitter",
-			"url": "https://www.twitter.com/ShortThirdMan",
+			"url": "https://www.twitter.com/ShortThirdMan93",
 			"username": "ShortThirdMan"
 		}, {
 			"network": "Facebook",
@@ -80,12 +89,12 @@
 			"month": 3
 		},
 		"summary": "Full-stack Senior Developer (Backend & Frontend)",
-		"highlights": []
+		"highlights": [""]
 	}, {
 		"company": "Advanced Technology Consulting Services Inc Ltd",
 		"position": "Software Engineer",
 		"website": "https://www.atcs.com",
-		"location": "Jaipur, RJ, IN",
+		"location": "Jaipur, RJ, India",
 		"isCurrentRole": false,
 		"startDate": "2016-07-25",
 		"endDate": "2020-03-17",
@@ -108,7 +117,7 @@
 		"company": "DGI Dynamics Finer Infosolution Pvt Ltd",
 		"position": "Associate Technical Consultant",
 		"website": "https://dynamicsinfosolution.com/",
-		"location": "Kolkata, WB, IN",
+		"location": "Kolkata, WB, India",
 		"isCurrentRole": false,
 		"startDate": "2016-06-06",
 		"endDate": "2016-07-08",
@@ -128,7 +137,7 @@
 		"company": "Centre for Development of Advanced Computing, India",
 		"position": "Software Developer Trainee",
 		"website": "https://www.cdac.in",
-		"location": "Kolkata, WB, IN",
+		"location": "Kolkata, WB, India",
 		"isCurrentRole": false,
 		"startDate": "2016-01-01",
 		"endDate": "2016-05-14",
@@ -268,7 +277,7 @@
 		"courses": ["English", "Mathematics", "Science", "Computer Science", "Hindi", "Bengali", "Physical Education"]
 	}, {
 		"institution": "D.A.V. Public School, Chandrasekharpur, Bhubaneswar",
-		"location": "Bhubaneswar, OD, IN",
+		"location": "Bhubaneswar, OD, India",
 		"area": "Primary",
 		"studyType": "Primary Education",
 		"startDate": "1999-05-03",
