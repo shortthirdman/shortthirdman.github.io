@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" translate="yes" spellcheck="false">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,7 +10,6 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="color-scheme" content="dark light">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta http-equiv="X-UA-Compatible" content="IE=11"/>
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">
 	<meta http-equiv="pragma" content="no-cache">
@@ -52,41 +51,466 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/main.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Swetank Mohanty (shortthirdman)</title>
   </head>
-  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-  <script src="assets/js/main.js" type="text/javascript"></script>
-  <body onload="renderTemplates()">
-	<div class="row my-4">
-		<header>
-			<h3>Hello there, folks!</h3>
-		</header>
-	</div>
-	<script id="header-template" type="text/x-handlebars-template">
-		<div class="entry">
-			<h1>{{ title }}</h1>
-			<div class="body">
-				{{ body }}
-			</div>
-		</div>
-	</script>
-	<main id="content">
-		<div class="container py-5">
-		</div>
-	</main>
-	
-	<script id="footer-template" type="text/x-handlebars-template">
-		<div class="row my-4">
-			<footer>&copy; ShortThirdMan &trade; {{ currentYear }}</footer>
-		</div>
-	</script>
+  <script type="text/javascript">
+    function loadBSTooltip() {
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      });
+    }
+  </script>
+  <body onload="loadBSTooltip()">
+    <div class="container-fluid mx-3 my-3 p-3">
+      <picture class="mx-auto d-block">
+        <!-- <source srcset="header.png" type="image/png"> -->
+        <img class="img-fluid" src="assets/images/header.png" alt="intro-header">
+      </picture>
 
-    <!-- Bootstrap Bundle -->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+      <p class="my-2">A full-stack software developer living in Bengaluru, India :india:</p>
+      <ul>
+        <li>🔭 I’m currently working on any random project ideas</li>
+        <li>🌱 I’m currently learning <strong>Python, Flutter, GraphQL, React.js, DevOps</strong></li>
+        <li>👯 I’m looking to collaborate on software developments </li>
+        <li>🌋 I’m always looking for challenging work oppurtunities ahead.</li>
+        <li>🤔 I’m looking for help with Mobile Application Development, ML with Python, DevOps</li>
+        <li>💬 Ask me about Front-end web technologies, Web development frameworks</li>
+      </ul>
+      <p><a href="https://github.com/shortthirdman/shortthirdman"><img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="Ask Me Anything !"></a></p>
+    </div>
+
+    <div class="mx-3 my-3 p-3">
+      <h2 id="#social-platforms">stalk me on social platforms</h2>
+      <ul class="list-group list-group-horizontal-xl shadow" style="width: 16.75%;">
+        <li class="list-group-item border-0">
+          <a href="https://www.twitter.com/ShortThirdMan93" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="ShortThirdMan93">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/twitter.svg" alt="twitter" class="twitter"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.instagram.com/shortthirdman" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="shortthirdman">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/instagram.svg" alt="instagram" class="instagram" />
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.facebook.com/ShortThirdManOfficial" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="ShortThirdManOfficial">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/facebook.svg" alt="facebook" class="facebook" />
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.linkedin.com/in/shortthirdman" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="shortthirdman">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/linkedin.svg" alt="LinkedIn" class="linkedin"/>
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h2 id="#contact-card">contact me</h2>
+      <ul class="list-group list-group-horizontal-xl shadow" style="width: 8.45%;">
+        <li class="list-group-item border-0">
+          <a href="https://api.whatsapp.com/send?phone=919007636266&text=Hello%20Swetank,%20I%20got%20your%20contact%20from%20your%20Github%20profile" alt="Connect on WhatsApp" class="text-decoration-none"> 
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/whatsapp.svg" alt="whatsapp" class="whatsapp"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="mailto:swetank.mohanty@outlook.com" class="text-decoration-none">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/microsoftoutlook.svg" alt="msoutlook" class="msoutlook"/>
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h2 id="#contact-card">instant messaging/setup meeting</h2>
+      <ul class="list-group list-group-horizontal-xl shadow" style="width: 16%;">
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Microsoft Teams">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/microsoftteams.svg" alt="msteams" class="msteams"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://t.me/shortthirdman" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/telegram.svg" alt="telegram" class="telegram"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://bit.ly/3kJTzBv" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Zoom">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/zoom.svg" alt="zoom" class="zoom"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="skype:swetank.mohanty93" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Skype">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/skype.svg" alt="skype" class="skype"/>
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h2 id="-skills-" class="my-4">🚀 Skills 🔝</h2>
+
+      <h3 id="languages-frameworks" class="mt-4 mb-4">languages &amp; frameworks</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 40%;">
+        <li class="list-group-item border-0">
+          <a href="https://angular.io" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Angular">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/angular.svg" alt="angular" class="angular" />
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/javascript.svg" alt="javascript" class="javascript" />
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Python">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/python.svg" alt="python" class="python">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Java">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/java.svg" alt="java" class="java">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.typescriptlang.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="TypeScript">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/typescript.svg" alt="typescript" class="typescript">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://nodejs.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="NodeJS">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/nodedotjs.svg" alt="nodejs" class="nodejs">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.npmjs.com/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="npm">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/npm.svg" alt="npm" class="npm">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://html.spec.whatwg.org/multipage/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/html5.svg" alt="html5" class="html5">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/css3.svg" alt="css3" class="css3">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" alt="Sass" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Sass">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/sass.svg" alt="sass" class="sass">
+          </a>
+        </li>
+      </ul>
+
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 40%;">
+        <li class="list-group-item border-0">
+          <a href="https://www.chartjs.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Chart.js">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/chartdotjs.svg" alt="chartjs" class="chartjs">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://getbootstrap.com/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/bootstrap.svg" alt="bootstrap" class="bootstrap">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://emberjs.com/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Ember.js">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/emberdotjs.svg" alt="emberjs" class="emberjs">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://spring.io/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Spring">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/spring.svg" alt="spring" class="spring">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://spring.io/projects/spring-boot" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Spring Boot">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/springboot.svg" alt="springboot" class="springboot">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Markdown">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/markdown.svg" alt="markdown" class="markdown">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="GNU Bash">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/gnubash.svg" alt="gnubash" class="gnubash">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://pandas.pydata.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Pandas" >
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/pandas.svg" alt="pandas" class="pandas">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://numpy.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="NumPy">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/numpy.svg" alt="numpy" class="numpy">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://docs.microsoft.com/en-us/powershell/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Windows PowerShell">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/powershell.svg" alt="powershell" class="powershell">
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h3 id="databases" class="mt-4 mb-4">databases</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 16%;">
+        <li class="list-group-item border-0">
+          <a href="https://www.postgresql.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="PostgreSQL">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/postgresql.svg" alt="postgresql" class="postgresql"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.oracle.com/in/database/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Oracle">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/oracle.svg" alt="oracle" class="oracle"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.mysql.com/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="MySQL">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/mysql.svg" alt="mysql" class="mysql"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="IBM DB2">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/ibm.svg" alt="ibmdb2" class="ibmdb2"/>
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h3 id="operating-systems-os" class="mt-4 mb-4">operating systems</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 40%;">
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Linux">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/linux.svg" alt="linux" class="linux"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Microsoft Windows">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/windows.svg" alt="windows" class="windows"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="RedHat Enterprise Linux">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/redhat.svg" alt="redhat" class="redhat"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Ubuntu">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/ubuntu.svg" alt="ubuntu" class="ubuntu"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Alpine Linux">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/alpinelinux.svg" alt="alpinelinux" class="alpinelinux"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="CentOS">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/centos.svg" alt="centos" class="centos"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Debian">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/debian.svg" alt="debian" class="debian"/>
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="#" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Fedora">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/fedora.svg" alt="fedora" class="fedora"/>
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h3 id="version-control" class="mt-4 mb-4">version control systems</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 20%;">
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Git">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/git.svg" alt="git" class="git">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Atlassian Bitbucket">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/bitbucket.svg" alt="bitbucket" class="bitbucket">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="GitLab">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/gitlab.svg" alt="gitlab" class="gitlab">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/github.svg" alt="github" class="github">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Subversion">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/subversion.svg" alt="subversion" class="subversion">
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h3 id="tools" class="mt-4 mb-4">ide &amp; tools</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 44%;">
+        <li class="list-group-item border-0">
+          <a href="https://www.postman.com/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Postman">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/postman.svg" alt="postman" class="postman">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.anaconda.com/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Anaconda">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/anaconda.svg" alt="anaconda" class="anaconda">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://atom.io/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Atom">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/atom.svg" alt="atom" class="atom">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://babeljs.io/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Babel">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/babel.svg" alt="babel" class="babel">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://eslint.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="ESLint">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/eslint.svg" alt="eslint" class="eslint">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://maven.apache.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Apache Maven">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/apachemaven.svg" alt="apachemaven" class="apachemaven">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://www.eclipse.org/ide/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Eclipse IDE">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/eclipseide.svg" alt="eclipseide" class="eclipseide">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://code.visualstudio.com/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Microsoft VS Code">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/visualstudiocode.svg" alt="visualstudiocode" class="visualstudiocode">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://jupyter.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Jupyter Notebooks">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/jupyter.svg" alt="jupyter" class="jupyter">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://notepad-plus-plus.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Notepad++">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/notepadplusplus.svg" alt="notepadplusplus" class="notepadplusplus">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="FileZilla">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/filezilla.svg" alt="filezilla" class="filezilla">
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h3 id="cloud-devops" class="mt-4 mb-4">cloud / devops</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 40%;">
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Netlify">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/netlify.svg" alt="netlify" class="netlify">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Heroku">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/heroku.svg" alt="heroku" class="heroku">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Amazon AWS">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/amazonaws.svg" alt="amazonaws" class="amazonaws">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Microsoft Azure">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/microsoftazure.svg" alt="microsoftazure" class="microsoftazure">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Docker">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/docker.svg" alt="docker" class="docker">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Vercel">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/vercel.svg" alt="vercel" class="vercel">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/shortthirdman/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Kubernetes">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/kubernetes.svg" alt="kubernetes" class="kubernetes">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/actions/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub Actions">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/githubactions.svg" alt="githubactions" class="githubactions">
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h3 id="cloud-devops" class="mt-4 mb-4">web-hosting / app servers</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 9%;">
+        <li class="list-group-item border-0">
+          <a href="https://github.com/actions/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Apache Tomcat">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/apachetomcat.svg" alt="apachetomcat" class="apachetomcat">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://github.com/actions/" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Nginx">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/nginx.svg" alt="nginx" class="nginx">
+          </a>
+        </li>
+      </ul>
+
+      <hr class="border border-5">
+
+      <h3 id="tools" class="mt-4 mb-4">project management tools</h3>
+      <ul class="list-group list-group-horizontal-xl shadow my-2" style="width: 40%;">
+        <li class="list-group-item border-0">
+          <a href="https://eslint.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Atlassian Jira">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/jira.svg" alt="jira" class="jira">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://eslint.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Atlassian Jira Software">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/jirasoftware.svg" alt="jirasoftware" class="jirasoftware">
+          </a>
+        </li>
+        <li class="list-group-item border-0">
+          <a href="https://eslint.org/" target="_blank" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="WakaTime">
+            <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@5.23.0/icons/wakatime.svg" alt="wakatime" class="wakatime">
+          </a>
+        </li>
+        <!-- <li class="list-group-item border-0"></li>
+        <li class="list-group-item border-0"></li> -->
+      </ul>
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
   </body>
 </html>

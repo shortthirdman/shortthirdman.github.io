@@ -48,3 +48,271 @@ body {
 a {
 	text-decoration: none;
 }
+
+.whatsapp {
+    filter: invert(63%) sepia(67%) saturate(568%) hue-rotate(88deg) brightness(96%) contrast(81%);
+}
+
+.facebook {
+    filter: invert(37%) sepia(56%) saturate(5145%) hue-rotate(204deg) brightness(100%) contrast(90%);
+}
+
+.instagram {
+    filter: invert(35%) sepia(93%) saturate(1073%) hue-rotate(318deg) brightness(90%) contrast(100%);
+}
+
+.twitter {
+    filter: invert(65%) sepia(43%) saturate(6872%) hue-rotate(177deg) brightness(100%) contrast(90%);
+}
+
+.linkedin {
+    filter: invert(21%) sepia(89%) saturate(2257%) hue-rotate(197deg) brightness(104%) contrast(92%);
+}
+
+.msoutlook {
+    filter: invert(27%) sepia(83%) saturate(3445%) hue-rotate(191deg) brightness(97%) contrast(101%);
+}
+
+.msteams {
+    filter: invert(41%) sepia(5%) saturate(3786%) hue-rotate(200deg) brightness(99%) contrast(100%);
+}
+
+.zoom {
+    filter: invert(64%) sepia(85%) saturate(4778%) hue-rotate(195deg) brightness(99%) contrast(105%);
+}
+
+.angular {
+    filter: invert(10%) sepia(94%) saturate(4446%) hue-rotate(339deg) brightness(119%) contrast(110%);
+}
+
+.javascript {
+    filter: invert(87%) sepia(63%) saturate(4297%) hue-rotate(339deg) brightness(101%) contrast(94%);
+}
+
+.python {
+    filter: invert(40%) sepia(94%) saturate(386%) hue-rotate(166deg) brightness(86%) contrast(84%);
+}
+
+.nodejs {
+    filter: invert(59%) sepia(67%) saturate(6736%) hue-rotate(96deg) brightness(101%) contrast(60%);
+}
+
+.typescript {
+    filter: invert(37%) sepia(93%) saturate(768%) hue-rotate(181deg) brightness(89%) contrast(81%);
+}
+
+.java {
+    filter: invert(25%) sepia(41%) saturate(4166%) hue-rotate(174deg) brightness(95%) contrast(101%);
+}
+
+.npm {
+    filter: invert(27%) sepia(47%) saturate(1866%) hue-rotate(329deg) brightness(108%) contrast(100%);
+}
+
+.html5 {
+    filter: invert(33%) sepia(88%) saturate(1430%) hue-rotate(348deg) brightness(93%) contrast(90%);
+}
+
+.css3 {
+    filter: invert(37%) sepia(31%) saturate(2057%) hue-rotate(173deg) brightness(93%) contrast(95%);
+}
+
+.sass {
+    filter: invert(79%) sepia(30%) saturate(6663%) hue-rotate(292deg) brightness(85%) contrast(85%);
+}
+
+.bootstrap {
+    filter: invert(38%) sepia(26%) saturate(1696%) hue-rotate(225deg) brightness(87%) contrast(82%);
+}
+
+.chartjs {
+    filter: invert(56%) sepia(55%) saturate(2797%) hue-rotate(312deg) brightness(103%) contrast(101%);
+}
+
+.emberjs {
+    filter: invert(36%) sepia(52%) saturate(2241%) hue-rotate(341deg) brightness(94%) contrast(86%);
+}
+
+.spring, .springboot {
+    filter: invert(58%) sepia(35%) saturate(709%) hue-rotate(53deg) brightness(100%) contrast(90%);
+}
+
+.gnubash {
+    filter: invert(77%) sepia(59%) saturate(5572%) hue-rotate(63deg) brightness(94%) contrast(71%);
+}
+
+.markdown {
+    filter: invert(0%) sepia(6%) saturate(7500%) hue-rotate(328deg) brightness(94%) contrast(106%);
+}
+
+.pandas {
+    filter: invert(8%) sepia(95%) saturate(7361%) hue-rotate(259deg) brightness(40%) contrast(107%);
+}
+
+.numpy {
+    filter: invert(16%) sepia(15%) saturate(4703%) hue-rotate(162deg) brightness(89%) contrast(99%);
+}
+
+.powershell {
+    filter: invert(51%) sepia(37%) saturate(1092%) hue-rotate(185deg) brightness(101%) contrast(99%);
+}
+
+.postman {
+    filter: invert(46%) sepia(89%) saturate(933%) hue-rotate(337deg) brightness(101%) contrast(101%);
+}
+
+.babel {
+    filter: invert(87%) sepia(26%) saturate(1145%) hue-rotate(350deg) brightness(104%) contrast(95%);
+}
+
+.postgresql {
+    filter: invert(36%) sepia(41%) saturate(2645%) hue-rotate(211deg) brightness(91%) contrast(93%);
+}
+
+.jira, .jirasoftware {
+    filter: invert(21%) sepia(95%) saturate(2342%) hue-rotate(207deg) brightness(90%) contrast(108%);
+}
+
+.anaconda {
+    filter: invert(60%) sepia(15%) saturate(4611%) hue-rotate(70deg) brightness(91%) contrast(66%);
+}
+
+.jupyter {
+    filter: invert(56%) sepia(10%) saturate(7398%) hue-rotate(345deg) brightness(98%) contrast(94%);
+}
+
+.skype {
+    filter: invert(63%) sepia(61%) saturate(4981%) hue-rotate(162deg) brightness(99%) contrast(101%);
+}
+
+.atom {
+    filter: invert(37%) sepia(11%) saturate(427%) hue-rotate(296deg) brightness(86%) contrast(83%);
+}
+
+.notepadplusplus {
+    filter: invert(90%) sepia(11%) saturate(1412%) hue-rotate(66deg) brightness(95%) contrast(89%);
+}
+
+.visualstudiocode {
+    filter: invert(32%) sepia(78%) saturate(1489%) hue-rotate(180deg) brightness(93%) contrast(104%);
+}
+
+.eclipseide {
+    filter: invert(16%) sepia(40%) saturate(1418%) hue-rotate(219deg) brightness(83%) contrast(98%);
+}
+
+.apachemaven {
+    filter: invert(11%) sepia(85%) saturate(6068%) hue-rotate(345deg) brightness(90%) contrast(84%);
+}
+
+.filezilla {
+    filter: invert(10%) sepia(100%) saturate(6183%) hue-rotate(1deg) brightness(74%) contrast(114%);
+}
+
+.eslint {
+    filter: invert(25%) sepia(60%) saturate(3071%) hue-rotate(241deg) brightness(75%) contrast(105%);
+}
+
+.netlify {
+    filter: invert(51%) sepia(100%) saturate(467%) hue-rotate(128deg) brightness(94%) contrast(102%);
+}
+
+.heroku {
+    filter: invert(10%) sepia(98%) saturate(7412%) hue-rotate(272deg) brightness(59%) contrast(113%);
+}
+
+.docker {
+    filter: invert(48%) sepia(77%) saturate(2026%) hue-rotate(182deg) brightness(97%) contrast(92%);
+}
+
+.kubernetes {
+    filter: invert(29%) sepia(99%) saturate(1738%) hue-rotate(212deg) brightness(96%) contrast(87%);
+}
+
+.githubactions {
+    filter: invert(38%) sepia(68%) saturate(2178%) hue-rotate(199deg) brightness(103%) contrast(100%);
+}
+
+.amazonaws {
+    filter: invert(15%) sepia(14%) saturate(1430%) hue-rotate(173deg) brightness(89%) contrast(89%);
+}
+
+.microsoftazure {
+    filter: invert(51%) sepia(97%) saturate(5986%) hue-rotate(190deg) brightness(94%) contrast(101%);
+}
+
+.amazons3 {
+    filter: invert(50%) sepia(49%) saturate(566%) hue-rotate(55deg) brightness(93%) contrast(93%);
+}
+
+.apachetomcat {
+    filter: invert(91%) sepia(98%) saturate(571%) hue-rotate(320deg) brightness(104%) contrast(95%);
+}
+
+.nginx {
+    filter: invert(35%) sepia(73%) saturate(6366%) hue-rotate(140deg) brightness(100%) contrast(102%);
+}
+
+.telegram {
+    filter: invert(51%) sepia(96%) saturate(420%) hue-rotate(157deg) brightness(92%) contrast(94%);
+}
+
+.oracle {
+    filter: invert(29%) sepia(90%) saturate(6556%) hue-rotate(356deg) brightness(85%) contrast(133%);
+}
+
+.mysql {
+    filter: invert(50%) sepia(7%) saturate(2856%) hue-rotate(164deg) brightness(85%) contrast(92%);
+}
+
+.ibmdb2 {
+    filter: invert(8%) sepia(86%) saturate(7089%) hue-rotate(232deg) brightness(91%) contrast(96%);
+}
+
+.git {
+    filter: invert(35%) sepia(60%) saturate(1877%) hue-rotate(342deg) brightness(99%) contrast(90%);
+}
+
+.bitbucket {
+    filter: invert(28%) sepia(89%) saturate(2559%) hue-rotate(206deg) brightness(77%) contrast(112%);
+}
+
+.gitlab {
+    filter: invert(58%) sepia(77%) saturate(489%) hue-rotate(351deg) brightness(102%) contrast(98%);
+}
+
+.github {
+    filter: invert(3%) sepia(3%) saturate(1158%) hue-rotate(314deg) brightness(109%) contrast(87%);
+}
+
+.subversion {
+    filter: invert(62%) sepia(18%) saturate(700%) hue-rotate(178deg) brightness(96%) contrast(90%);
+}
+
+.linux {
+    filter: invert(74%) sepia(87%) saturate(433%) hue-rotate(347deg) brightness(97%) contrast(105%);
+}
+
+.windows {
+    filter: invert(34%) sepia(33%) saturate(3336%) hue-rotate(185deg) brightness(97%) contrast(105%);
+}
+
+.redhat {
+    filter: invert(15%) sepia(86%) saturate(4991%) hue-rotate(356deg) brightness(86%) contrast(122%);
+}
+
+.ubuntu {
+    filter: invert(40%) sepia(16%) saturate(6604%) hue-rotate(351deg) brightness(96%) contrast(91%);
+}
+
+.centos {
+    filter: invert(10%) sepia(51%) saturate(4696%) hue-rotate(238deg) brightness(97%) contrast(94%);
+}
+
+.fedora {
+    filter: invert(23%) sepia(9%) saturate(4738%) hue-rotate(185deg) brightness(92%) contrast(88%);
+}
+
+.debian {
+    filter: invert(12%) sepia(85%) saturate(4223%) hue-rotate(342deg) brightness(86%) contrast(86%);
+}
